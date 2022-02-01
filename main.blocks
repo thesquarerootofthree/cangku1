@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="LAcRZ;*r@GEd6b$PTd8@" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="%$qJDjgx:{M1Wq=S7Z+c"><field name="i">IconNames.Asleep</field><next><block type="basic_show_icon" id="G*jUr{gHh.8|z^ym8gVJ"><field name="i">IconNames.Asleep</field><next><block type="SoundExpression_playUntilDone" id="=Yx)a-9Sp`8lu^It/[_]"><field name="this">soundExpression.yawn</field><next><block type="basic_show_icon" id="fc^|*ID9U@qV4rF@x${~"><field name="i">IconNames.Silly</field><next><block type="basic_show_icon" id="?W0hmvf2h%5}zg5Hw#MF"><field name="i">IconNames.Silly</field></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="[u-F`-HDNDHpJ,l@Yfpz" x="207" y="90"/><block type="device_button_event" id=".r./VHNgVEpmLGU@t+v}" x="398" y="177"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="SoundExpression_playUntilDone" id="Qq+FX)4p/CiKLh7G07NZ"><field name="this">soundExpression.giggle</field><next><block type="device_show_leds" id="X{`zF+Hd:H+]xTj=t287"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="l?YJlED?bM_qnOSFQ/{K"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="basic_show_icon" id="-`:`-sCwVTjA)`9.,+z."><field name="i">IconNames.Asleep</field><next><block type="basic_show_icon" id="K3Kn/i6+L4^)_%k8gV^9"><field name="i">IconNames.Asleep</field></block></next></block></next></block></next></block></next></block></statement></block><block type="device_gesture_event" id="-`g~cjE}/=DN6)jdGsum" x="53" y="376"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="G^XJ}-K++l%rI[H|v+dT"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field><next><block type="SoundExpression_playUntilDone" id="`.S^k+^4K)I|fQ2?cd^V"><field name="this">soundExpression.sad</field></block></next></block></statement></block></xml>
